@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/vuongkhung1.jpg">
+  <link rel="stylesheet" href="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   
+  <title> Tum music</title>
+</head>
+
+<div class="player">
+  <!-- Dashboard -->
+  <div class="dashboard">
+    <!-- Header -->
+    <header>
+      <h4>Love You !</h4>
+      <h2>Anh yeuu Tủmmm 3000 </h2>
+    </header>
+
+    <!-- CD -->
+    <div class="cd">
+      <div class="cd-thumb" style="background-image:url(img/z3478278471981_0bb40aef34c2e13a2e450fd84db718ac.jpg) ">
+      </div>
+    </div>
+
+    <!-- Control -->
+    <div class="control">
+      <div class="btn btn-repeat">
+        <i class="fas fa-redo"></i>
+      </div>
+      <div class="btn btn-prev">
+        <i class="fas fa-step-backward"></i>
+      </div>
+      <div class="btn btn-toggle-play">
+        <i class="fas fa-pause icon-pause"></i>
+        <i class="fas fa-play icon-play"></i>
+      </div>
+      <div class="btn btn-next">
+        <i class="fas fa-step-forward"></i>
+      </div>
+      <div class="btn btn-random">
+        <i class="fas fa-random"></i>
+      </div>
+    </div>
+
+    <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+    <audio id="audio" src=""></audio>
+  </div>
+
+  <!-- Playlist -->
+  <div class="playlist">
+    <div class="song">
+      <div class="thumb" style="background-image: url('img/vuongkhung1.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Tum kute</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+    <div class="song">
+      <div class="thumb" style="background-image: url('img/pic3.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Vuong tung</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+    <div class="song">
+      <div class="thumb" style="background-image: url('img/z3460377322600_9e82508563e0e6279bf20362919340a7.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Vuong khung</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+      <div class="song">
+      <div class="thumb" style="background-image: url('img/z3460377327439_c7ee883acca744639c0ac7a842db6960.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Ha Thi Vuong</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+    <div class="song">
+      <div class="thumb" style="background-image: url('img/vuongkhung1.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Ha Thi Vuong</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+    <div class="song">
+      <div class="thumb" style="background-image: url('img/vuongkhung1.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Ha Thi Vuong</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+    <div class="song">
+      <div class="thumb" style="background-image: url('img/vuongkhung1.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Ha Thi Vuong</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+    <div class="song">
+      <div class="thumb" style="background-image: url('img/vuongkhung1.jpg')">
+      </div>
+      <div class="body">
+        <h3 class="title">Music name</h3>
+        <p class="author">Ha Thi Vuong</p>
+      </div>
+      <div class="option">
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+    </div>
+    </div>
+
+    
+  </div>
+</div>
+<script src="test.js"></script>
+
+<!-- Design from: https://static.collectui.com/shots/3671744/musicloud-revolutionary-app-for-music-streaming-large -->
